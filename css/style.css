@@ -1,0 +1,322 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff; }
+
+@font-face {
+  src: url(../font-family/ProximaNova-Bold.eot);
+  font-family: Proximab; }
+
+@font-face {
+  src: url(../font-family/ProximaNovaRegular.ttf);
+  font-family: Proximar; }
+
+@font-face {
+  src: url(../font-family/proximanovalight.ttf);
+  font-family: Proximal; }
+
+.destopmenu .nav-link {
+  font-family: Proximar; }
+
+.destopmenu .nav-item:hover {
+  background: #615B9B;
+  transition: all .5s; }
+  .destopmenu .nav-item:hover .nav-link {
+    color: white !important; }
+
+.M_button1 {
+  background: #1B1740 !important; }
+  .M_button1 .fa-times-circle {
+    color: white; }
+
+#M_menu {
+  background: #1B1740; }
+  #M_menu .nav-item:hover {
+    background: #6BAAC1;
+    transition: all 0.5s; }
+  #M_menu .nav-link {
+    font-size: 2rem;
+    color: #fff;
+    font-family: Proximar;
+    font-weight: 600; }
+  #M_menu .submenuicon {
+    right: 10%;
+    top: 0%; }
+    #M_menu .submenuicon i {
+      font-size: 2rem;
+      color: #fff; }
+
+.Hometop {
+  background: #1b1740; }
+  .Hometop h3 {
+    font-family: Proximab; }
+  .Hometop .homemenu1:hover {
+    transition: all .5s;
+    background: #73BA9D; }
+  .Hometop .homemenu2:hover {
+    transition: all .5s;
+    background: #6BAAC1; }
+  .Hometop .homemenu3:hover {
+    transition: all .5s;
+    background: #6B83C1; }
+
+.jobform {
+  z-index: 2;
+  width: 100%; }
+  .jobform .Keywords {
+    color: #122121;
+    font-family: proximar;
+    font-weight: bold; }
+  .jobform .selectbox option, .jobform .selectbox select {
+    color: #000;
+    font-family: proximar;
+    font-weight: bold; }
+  .jobform .selectbox .updowni {
+    background: white;
+    height: 99%;
+    width: 5%;
+    right: 0;
+    top: 1%;
+    border-radius: .5rem;
+    pointer-events: none; }
+    .jobform .selectbox .updowni i {
+      display: block; }
+    .jobform .selectbox .updowni i:nth-child(1) {
+      margin-top: 15%; }
+  .jobform a {
+    margin-left: 38%;
+    margin-top: 5%;
+    font-family: proximar; }
+  .jobform a:hover {
+    font-weight: bold; }
+
+.homecenter {
+  width: 100%;
+  position: relative; }
+  .homecenter .bg_images {
+    width: 100%;
+    background: url("../images/icon-watermark.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left -30%;
+    overflow: hidden; }
+  .homecenter .bg_overlay {
+    background: #50499b;
+    background: linear-gradient(90deg, #50499be8 0%, rgba(32, 24, 95, 0.9) 100%); }
+  .homecenter a:hover {
+    font-weight: bold; }
+  .homecenter .selectbox {
+    width: 26%; }
+    .homecenter .selectbox option, .homecenter .selectbox select {
+      color: #000;
+      font-family: proximar;
+      font-weight: bold; }
+    .homecenter .selectbox .updowni {
+      background: white;
+      height: 99%;
+      width: 10%;
+      right: 0;
+      top: 1%;
+      border-radius: .5rem;
+      pointer-events: none; }
+      .homecenter .selectbox .updowni i {
+        display: block; }
+      .homecenter .selectbox .updowni i:nth-child(1) {
+        margin-top: 25%; }
+
+.images img {
+  width: 100%;
+  height: 100%; }
+
+.H_cards {
+  font-family: proximar; }
+  .H_cards .card-1 {
+    background: #73BA9D; }
+    .H_cards .card-1 .bg_overlay {
+      background: url("../images/Watermark.png") no-repeat; }
+  .H_cards .card-2 {
+    background: #6BAAC1; }
+    .H_cards .card-2 .bg_overlay {
+      background: url("../images/Watermark2.png") no-repeat; }
+  .H_cards .card-3 {
+    background: #6B83C1; }
+    .H_cards .card-3 .bg_overlay {
+      background: url("../images/Watermark3.png") no-repeat; }
+  .H_cards .card {
+    width: 100%;
+    height: 25rem;
+    opacity: .9;
+    overflow: hidden; }
+    .H_cards .card p {
+      width: 90%; }
+    .H_cards .card .bg_overlay {
+      width: 110%;
+      height: 22rem;
+      background-size: 30%;
+      background-position: right bottom; }
+
+#services .bg_overlay {
+  width: 100%;
+  background: url("../images/Watermark4.png") no-repeat;
+  background-size: 20%; }
+
+#services .slick-slide {
+  margin: 0rem .5rem; }
+
+#services .slick-dots li {
+  border: 0.1rem solid #615B9B;
+  border-radius: 50%; }
+
+#services .slick-dots .slick-active {
+  background: #615B9B; }
+
+#services .card-body {
+  padding: 0rem;
+  font-family: proximar; }
+
+#services h4 {
+  font-weight: 600; }
+
+#services .card-titale {
+  font-size: 1.8rem;
+  color: #615B9B;
+  font-weight: 600;
+  font-family: proximar; }
+
+#services p {
+  font-size: 1.3rem;
+  color: #676063;
+  font-family: proximar; }
+
+#services .card-text {
+  font-size: 1.5rem;
+  font-family: proximal; }
+
+#services a {
+  color: #615B9B;
+  font-weight: 600; }
+
+#CGC {
+  height: 50rem;
+  overflow: hidden; }
+  #CGC .bg_imgages {
+    width: 100%;
+    height: 100%; }
+    #CGC .bg_imgages img {
+      width: 100%;
+      height: 100%; }
+  #CGC .textbox {
+    position: relative;
+    margin-top: 22%; }
+    #CGC .textbox p {
+      font-family: proximar; }
+
+#ReferFriend p {
+  font-family: proximar; }
+
+#ReferFriend img {
+  width: 100%;
+  height: 100%; }
+
+#footer {
+  background: #100C29; }
+  #footer p {
+    color: white; }
+  #footer a:hover {
+    text-decoration: none; }
+  #footer i, #footer a {
+    color: #615B9B; }
+  #footer .fee {
+    width: 100%; }
+    #footer .fee i {
+      padding: .6rem;
+      border-radius: 50%;
+      border: .1rem solid white;
+      color: white; }
+
+@media (min-width: 1921px) {
+  .H_cards .card {
+    height: 30rem; }
+    .H_cards .card h4 {
+      font-size: 2.2rem; }
+    .H_cards .card p {
+      font-size: 2.2rem; }
+  #CGC {
+    height: 90rem; } }
+
+@media (max-width: 1920px) {
+  .H_cards .card h4 {
+    font-size: 1.5rem; }
+  .H_cards .card p {
+    font-size: 1.5rem; } }
+
+@media (max-width: 1400px) {
+  .H_cards .card h4 {
+    font-size: 1.3rem; }
+  .H_cards .card p {
+    font-size: 1.3rem; } }
+
+@media (max-width: 1200px) {
+  .H_cards .card h4 {
+    font-size: 1.3rem; }
+  .H_cards .card p {
+    font-size: 1.3rem; }
+  .H_cards .card button {
+    font-size: 1.3rem; } }
+
+@media (max-width: 991.98px) {
+  .homecenter .form-inline {
+    display: none; }
+  .homecenter {
+    background-size: 25%;
+    background-position: left -30%; }
+  .H_cards .card {
+    height: auto; }
+    .H_cards .card h4 {
+      font-size: 1.5rem; }
+    .H_cards .card P {
+      font-size: 1.5rem; }
+    .H_cards .card button {
+      font-size: 1.5rem; }
+    .H_cards .card .bg_overlay {
+      height: auto; }
+  #CGC .textbox p {
+    font-size: 1.2rem; } }
+
+@media (max-width: 767.98px) {
+  #CGC {
+    height: auto;
+    overflow: visible; }
+    #CGC img {
+      height: 100%; }
+    #CGC .bg_imgages {
+      position: relative !important; }
+    #CGC .textbox {
+      position: relative;
+      margin-top: 0%; } }
+
+@media (max-width: 576px) {
+  .H_cards .card h4 {
+    font-size: 1.3rem; }
+  .H_cards .card P {
+    font-size: 1.3rem; }
+  .H_cards .card button {
+    font-size: 1.3rem; } }
+
+@media (max-width: 480px) {
+  .H_cards .card h4 {
+    font-size: 1rem; }
+  .H_cards .card P {
+    font-size: 1rem; }
+  .H_cards .card button {
+    font-size: 1rem; } }
+
+@media (max-width: 400.98px) {
+  #M_menu {
+    overflow: scroll; }
+    #M_menu .nav-link {
+      font-size: 1.6rem; } }

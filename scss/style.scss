@@ -1,0 +1,461 @@
+$bg:#615B9B;
+$bg1:#73BA9D;
+$bg2:#6BAAC1;
+$bg3:#6B83C1;
+html{
+  scroll-behavior: smooth;
+  font-size: 100%
+}
+body {
+  margin: 0;
+  padding: 0;
+    background: #fff;
+}
+@font-face {
+    src: url(../font-family/ProximaNova-Bold.eot);
+    font-family: Proximab
+}
+@font-face {
+    src: url(../font-family/ProximaNovaRegular.ttf);
+    font-family: Proximar
+}
+@font-face {
+    src: url(../font-family/proximanovalight.ttf);
+    font-family: Proximal
+}
+.destopmenu{
+  .nav-link{
+    font-family: Proximar;
+  }
+  .nav-item:hover{
+    background: $bg;
+    transition: all .5s;
+    .nav-link{
+      color: white !important;
+
+    }
+  }
+}
+.M_button1{
+  background: #1B1740 !important;
+  .fa-times-circle{
+    color: white;
+ }
+}
+#M_menu{
+  background: #1B1740;
+  .nav-item:hover{
+    background: #6BAAC1;
+    transition: all 0.5s;
+  }
+  .nav-link{
+    font-size: 2rem;
+    color: #fff;
+    font-family: Proximar;
+    font-weight: 600;
+  }
+  .submenuicon{
+    right: 10%;
+    top: 0%;
+    i{
+      font-size: 2rem;
+      color: #fff;
+    }
+  }
+}
+.Hometop{
+  background: #1b1740;
+  h3{
+    font-family: Proximab;
+  }
+  .homemenu1:hover{
+    transition: all .5s;
+    background: $bg1;
+  }
+  .homemenu2:hover{
+    transition: all .5s;
+    background: $bg2;
+  }
+  .homemenu3:hover{
+    transition: all .5s;
+    background: $bg3;
+  }
+}
+.jobform{
+  z-index: 2;
+  width: 100%;
+  .Keywords{
+    color: #122121;
+    font-family: proximar;
+    font-weight: bold;
+  }
+  .selectbox{
+    option,select{
+      color: #000;
+      font-family: proximar;
+      font-weight: bold;
+    }
+    .updowni{
+      background: white;
+      height: 99%;
+      width: 5%;
+      right: 0;
+      top: 1%;
+      border-radius: .5rem;
+      pointer-events: none;
+      i{
+        display: block;
+      }
+      i:nth-child(1){
+        margin-top: 15%;
+      }
+    }
+  }
+  a{
+    margin-left: 38%;
+    margin-top: 5%;
+    font-family: proximar;
+  }
+  a:hover{
+    font-weight: bold;
+  }
+}
+.homecenter{
+  width: 100%;
+ position: relative;
+ .bg_images{
+   width: 100%;
+   background: url("../images/icon-watermark.png");
+   background-repeat: no-repeat;
+   background-size: 25%;
+   background-position: left -30%;
+   overflow: hidden;
+  }
+  .bg_overlay{
+   background: rgb(80,73,155);
+  background: linear-gradient(90deg, #50499be8 0%, rgba(32, 24, 95, 0.9) 100%);
+  }
+  a:hover{
+   font-weight: bold;
+  }
+  .selectbox{
+   width: 26%;
+   option,select{
+     color: #000;
+     font-family: proximar;
+     font-weight: bold;
+   }
+   .updowni{
+     background: white;
+     height: 99%;
+     width: 10%;
+     right: 0;
+     top: 1%;
+     border-radius: .5rem;
+     pointer-events: none;
+     i{
+       display: block;
+     }
+     i:nth-child(1){
+       margin-top: 25%;
+     }
+   }
+ }
+}
+.images{
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.H_cards{
+  font-family: proximar;
+  .card-1{
+    background: $bg1;
+    .bg_overlay{
+      background: url("../images/Watermark.png") no-repeat;
+    }
+  }
+  .card-2{
+    background: $bg2;
+      .bg_overlay{
+      background: url("../images/Watermark2.png") no-repeat;
+    }
+  }
+  .card-3{
+    background: $bg3;
+      .bg_overlay{
+    background: url("../images/Watermark3.png") no-repeat;
+
+  }
+  }
+  .card{
+    width: 100%;
+    height: 25rem;
+    opacity: .9;
+    overflow: hidden;
+    p{
+      width: 90%;
+    }
+    .bg_overlay{
+      width: 110%;
+     height: 22rem;
+     background-size: 30%;
+     background-position: right bottom;
+    }
+  }
+}
+#services{
+  .bg_overlay{
+    width: 100%;
+    background: url("../images/Watermark4.png") no-repeat;
+    background-size: 20%;
+  }
+  .slick-slide{
+    margin: 0rem .5rem;
+  }
+  .slick-dots{
+    li{
+      border: .1rem solid $bg;
+      border-radius: 50%;
+
+    }
+    .slick-active{
+      background: $bg;
+    }
+  }
+
+  .card-body{
+    padding: 0rem;
+    font-family: proximar;
+  }
+  h4{
+    font-weight: 600;
+  }
+  .card-titale{
+    font-size: 1.8rem;
+    color: $bg;
+    font-weight: 600;
+    font-family: proximar;
+  }
+  p{
+    font-size: 1.3rem;
+    color: #676063;
+      font-family: proximar;
+  }
+  .card-text{
+    font-size: 1.5rem;
+    font-family: proximal;
+  }
+  a{
+    color:$bg;
+    font-weight: 600;
+  }
+}
+#CGC{
+  height: 50rem;
+  overflow: hidden;
+  .bg_imgages{
+    width: 100%;
+    height: 100%;
+    // background: url("../images/connetGroup Photo.jpg") no-repeat;
+    // background-size: 100% 100%;
+    // background-position: center;
+    // overflow: hidden;
+    // position: absolute;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+ .textbox{
+   position: relative;
+   margin-top: 22%;
+   p{
+     font-family: proximar;
+   }
+ }
+}
+#ReferFriend{
+  p{
+    font-family: proximar;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+#footer{
+  background: #100C29;
+  p{
+    color: white;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+    i,a{
+      color: $bg;
+    }
+    .fee{
+      width: 100%;
+      i{
+        padding: .6rem;
+        border-radius: 50%;
+        border:.1rem solid white;
+        color: white;
+      }
+    }
+}
+
+@media(min-width:1921px){
+  .H_cards{
+    .card{
+      height: 30rem;
+      h4{
+        font-size: 2.2rem;
+      }
+      p{
+        font-size: 2.2rem;
+      }
+    }
+  }
+  #CGC{
+    height: 90rem;}
+
+}
+@media(max-width:1920px){
+  .H_cards{
+    .card{
+      h4{
+        font-size: 1.5rem;
+      }
+      p{
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+@media(max-width:1400px){
+  .H_cards{
+    .card{
+      h4{
+        font-size: 1.3rem;
+      }
+      p{
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+@media(max-width:1200px){
+  .H_cards{
+    .card{
+      h4{
+        font-size: 1.3rem;
+      }
+      p{
+        font-size: 1.3rem;
+      }
+      button{
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+@media(max-width:991.98px){
+ .homecenter{
+  .form-inline{
+    display: none;
+  }
+ }
+ .homecenter{
+  background-size: 25%;
+  background-position: left -30%;
+  }
+  .H_cards{
+   .card{
+     height: auto;
+     h4{
+       font-size: 1.5rem;
+     }
+     P{
+       font-size: 1.5rem;
+     }
+     button{
+       font-size: 1.5rem;
+     }
+     .bg_overlay{
+      height: auto;
+
+     }
+   }
+
+ }
+ #CGC{
+  .textbox{
+    p{
+      font-size: 1.2rem;
+    }
+  }
+ }
+
+
+
+}
+@media(max-width:767.98px){
+  #CGC{
+    height: auto;
+      overflow: visible;
+      img{
+        height: 100%;
+      }
+    .bg_imgages{
+      position: relative !important;
+    }
+   .textbox{
+     position: relative;
+     margin-top: 0%;
+
+   }
+  }
+
+}
+@media(max-width:576px){
+  .H_cards{
+    .card{
+      h4{
+        font-size: 1.3rem;
+      }
+      P{
+        font-size: 1.3rem;
+      }
+      button{
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+@media(max-width:480px){
+  .H_cards{
+    .card{
+      h4{
+        font-size: 1rem;
+      }
+      P{
+        font-size: 1rem;
+      }
+      button{
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media(max-width:400.98px){
+  #M_menu{
+    overflow: scroll;
+    .nav-link{
+      font-size: 1.6rem;
+    }
+  }
+
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONNECT PERSONNEL</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <a href="#Home" class=" w-50 navbar-brand"><img src="images/Main Logo.png" alt=""></a>
+    <div class="searchb d-lg-none ml-auto mr-3 mr-sm-4 mr-md-5 h3 text-success" data-toggle="collapse" data-target="#jobform"><i class="fa fa-search"></i></div>
+    <button class="M_button h1 d-lg-none bg-white border-0 text-success" type="button" data-toggle="collapse" data-target="#M_menu">
+      <i class="fa fa-bars " data-toggle="collapse" data-target="M_menu"></i>
+      <i class="fa fa-times-circle" data-toggle="collapse" data-target="M_menu"></i>
+    </button>
+
+  <ul class="destopmenu navbar-nav text-uppercase ml-auto d-none d-lg-inline-block">
+    <li class="nav-item border border-success mr-2 rounded  d-inline-block">
+      <a href="#" class="nav-link text-success font-weight-bold">CONNECT PERSONNEL Home</a>
+    </li>
+    <li class="nav-item border border-success mr-2 rounded d-inline-block ">
+      <a href="#" class="nav-link text-success font-weight-bold"> <i class="fas fa-file-invoice"></i> timesheets</a>
+    </li>
+    <li data-toggle="collapse" data-target="#jobform" class="nav-item border border-success rounded d-inline-block">
+      <a href="#" class="nav-link text-success font-weight-bold"> <i class="fa fa-search"></i> Jobs</a>
+    </li>
+  </ul>
+
+</nav>
+<div class="collapse navbar-collapse" id="M_menu">
+ <ul class="navbar-nav tex-uppercase d-lg-none" >
+  <li class="nav-item px-3 px-md-5"><a href="#" class="nav-link">Home</a></li>
+  <li class="nav-item px-3 px-md-5"><a href="#" class="nav-link">TIMESHEETS</a></li>
+  <li class="nav-item px-3 px-md-5"><a href="#" class="nav-link">MEDICAL</a></li>
+  <li class="nav-item position-relative subli">
+    <a href="#" class="nav-link px-3 px-md-5">ENGINEERING/PROJECTS/OPERATIONS
+         <div class="submenuicon d-inline-block ml-3 d-lg-none" data-toggle="collapse" data-target="#submenu"><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down l-5"></i></div>
+       </a>
+   </li>
+  <ul class="navbar-nav collapse mt-0 d-lg-none" id="submenu">
+    <li class="nav-item"><a href="#" class="nav-link px-3 px-md-5">OUR INDUSTRIES</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-3 px-md-5">BROWSE JOBS</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-3 px-md-5">REGISTER & UPLOAD CV</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-3 px-md-5">CONTACT</a></li>
+  </ul>
+  <li class="nav-item px-3 px-md-5"><a href="#" class="nav-link">CONSULTING</a></li>
+ </ul>
+</div>
+<div class="jobform position-absolute collapse" id="jobform">
+  <div class="col-12 col-lg-4 ml-auto bg-success p-3 rounded">
+    <form action="#">
+      <input type="text" class=" form-control form-control-lg Keywords " placeholder="Keywords">
+     <div class="selectbox mt-3 position-relative">
+       <select class=" form-control form-control-lg" name="Industry">
+         <option value="Industry">Industry</option>
+         <option value="Industry 1">Industry 1</option>
+         <option value="Industry 2">Industry 2</option>
+         <option value="Industry 3">Industry 3</option>
+       </select>
+       <span class="updowni position-absolute"> <i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down l-5"></i></span>
+     </div>
+     <div class="selectbox position-relative mt-3">
+      <select class=" form-control form-control-lg" name="Location">
+        <option value="Location">Location</option>
+        <option value="Location 1">Location 1</option>
+        <option value="Location 2">Location 2</option>
+        <option value="Location 3">Location 3</option>
+      </select>
+      <span class="updowni position-absolute"> <i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down l-5"></i></span>
+      </div>
+      <a href="#" class="btn btn-outline-light btn-lg">Search Jobs</a>
+    </form>
+  </div>
+</div>
+<section id="Home">
+
+<div class="Hometop d-none d-lg-block">
+  <div class="row no-gutters text-center">
+    <div class="col-lg-3 col-xl-4 homemenu1 py-5">
+      <h3 class="text-light m-0">MEDICAL</h3>
+    </div>
+    <div class="col-lg-6 col-xl-4 homemenu2 py-5">
+      <h3 class="text-light m-0">ENGINEERING / PROJECT / OPERATIONS</h3>
+    </div>
+    <div class="col-lg-3 col-xl-4 homemenu3 py-5">
+      <h3 class="text-light m-0">CONSULTING</h3>
+    </div>
+  </div>
+</div>
+<div class="homecenter">
+  <div class="bg_images ">
+    <div class="bg_overlay py-5">
+    <div class="container ">
+      <h1 class="text-center text-light">Find the right <strong>connection</strong>. </h1>
+      <div class="form-inline py-5 mb-3">
+        <input type="text" placeholder="Keywords" class="from-control border-0 form-control-lg mr-2">
+        <div class="selectbox position-relative mr-2">
+         <select class=" form-control form-control-lg w-100" name="Location">
+           <option value="Location">Location</option>
+           <option value="Location 1">Location 1</option>
+           <option value="Location 2">Location 2</option>
+           <option value="Location 3">Location 3</option>
+         </select>
+         <span class="updowni position-absolute"> <i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down l-5"></i></span>
+         </div>
+         <div class="selectbox position-relative d-inline-block mr-2">
+           <select class=" form-control form-control-lg w-100" name="Industry">
+             <option value="Industry">Industry</option>
+             <option value="Industry 1">Industry 1</option>
+             <option value="Industry 2">Industry 2</option>
+             <option value="Industry 3">Industry 3</option>
+           </select>
+           <span class="updowni position-absolute"> <i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down l-5"></i></span>
+         </div>
+         <a href="#" class="btn btn-lg btn-outline-light d-inline-block"><i class="fa fa-search"></i> JOBS</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="home_footer">
+  <div class="row no-gutters images">
+    <div class="col-4"><img src="images/home medical.png" alt="" class="img-fluid"></div>
+    <div class="col-4"><img src="images/Inustry.jpg" alt="" class="img-fluid"></div>
+    <div class="col-4"><img src="images/Location.jpg" alt="" class="img-fluid"></div>
+  </div>
+</div>
+<div class="H_cards">
+  <div class="row no-gutters text-light">
+    <div class="col-lg-4 ">
+
+      <div class="card card-1 p-3 rounded-0">
+        <div class="bg_overlay">
+        <h4 class="card-title p-4 text-light font-weight-bold">H2 MEDICAL</h4>
+        <div class="card-body pt-0">
+          <p class="">Junior Doctors </p>
+          <p class="">Middle Grade Doctors</p>
+          <p class="d-lg-none">Specialist Doctors</p>
+          <p class="mb-5">Medical Directors</p>
+          <button type="button" class="btn btn-outline-light text-uppercase mb-2"> Go to medical</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card card-2 p-3 rounded-0">
+        <div class="bg_overlay">
+        <h4 class="card-title p-4 text-light font-weight-bold">ENGINEERING / PROJECTS / OPERATIONS</h4>
+        <div class="card-body pt-0">
+          <p class="mb-5">Design / Construction / Manufacturing / Oil & Gas / Mining / Technology /Renewable Energy / Utilities / Infrastructure / Transport</p>
+          <button type="button" class="btn btn-outline-light text-uppercase"> GO TO ENGINEERING / PROJECTS / OPS</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card card-3 p-3 rounded-0">
+        <div class="bg_overlay">
+        <h4 class="card-title p-4 text-light font-weight-bold">CONSULTING</h4>
+        <div class="card-body pt-0">
+          <p class="mb-5">Enabling organisations to link people’s roles and company learning & development strategy to critical business objectives.</p>
+          <button type="button" class="btn btn-outline-light text-uppercase"> GO TO CONSULTING</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="services" class="py-5">
+ <div class="bg_overlay">
+   <div class="container">
+     <h2 class="text-center text-dark">Latest Roles</h2>
+     <div class="slider">
+    <div class="card-1 m-3">
+        <div class="card p-3">
+            <h4 class="mb-4">MEDICAL</h4>
+            <div class="card-titale">H4 Locum RMO General Medicine</div>
+            <p class=""><span>1-10-20</span> <span>manning</span> <span>tepmp</span></p>
+            <div class="card-body">
+                <div class="card-text"> General Medicine RMO for Mid North NSW. This is a great oppartunity for someone looking to get a decent block of dates in one location. </div>
+                <h5><a href="#" class="mr-3"> VIEW JOB</a> <a href="#">MEDICAL JOBS</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class=" card-2 m-3">
+        <div class="card p-3">
+            <h4 class="mb-4 ">PROJECTS + OPERATIONS</h4>
+            <div class="card-titale">Mechanical/Piping Drafter -Autodesk</div>
+            <p class=""><span>30-9-20</span> <span>Brisbane</span> <span> Permanet</span></p>
+            <div class="card-body">
+                <div class="card-text"> Currently there is a three(3) month contract opportunity for an experienced Mechani-cal/Piping designer to work in their brisbane cbd office. </div>
+                <h5><a href="#" class="mr-3"> VIEW JOB</a> <a href="#">PROJECTS + OPERATIONS JOBS</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class=" card-3 m-3">
+        <div class="card p-4">
+            <h4 class="mb-4">MEDICAL</h4>
+            <div class="card-titale">General Medinine registrar</div>
+            <p class=""><span>22-9-2020</span> <span> Lismore </span> <span> Temp</span></p>
+            <div class="card-body">
+                <div class="card-text"> Connet Personnel Medical is a boutique medical recruitment agency. with friendly service and extensive experience. we make sure you get the most from your new job. </div>
+                <h5><a href="#" class="mr-3"> VIEW JOB</a> <a href="#">MEDICAL JOBS</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class=" card-4 m-3">
+        <div class="card p-3">
+            <h4 class="mb-4 ">MEDICAL</h4>
+            <div class="card-titale">H4 Locum RMO General Medicine</div>
+            <p class=""><span>1-10-20</span> <span>manning</span> <span>tepmp</span></p>
+            <div class="card-body">
+                <div class="card-text"> General Medicine RMO for Mid North NSW. This is a great oppartunity for someone looking to get a decent block of dates in one location. </div>
+                <h5><a href="#" class="mr-3"> VIEW JOB</a> <a href="#">MEDICAL JOBS</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class=" card-5 m-3">
+        <div class="card p-3">
+            <h4 class="mb-4">PROJECTS + OPERATIONS</h4>
+            <div class="card-titale">Mechanical/Piping Drafter -Autodesk</div>
+            <p class=""><span>30-9-20</span> <span>Brisbane</span> <span> Permanet</span></p>
+            <div class="card-body">
+                <div class="card-text"> Currently there is a three(3) month contract opportunity for an experienced Mechani-cal/Piping designer to work in their brisbane cbd office. </div>
+                <h5><a href="#" class="mr-3"> VIEW JOB</a> <a href="#">PROJECTS + OPERATIONS JOBS</a></h5>
+            </div>
+        </div>
+    </div>
+   </div>
+ </div>
+
+
+</section>
+
+<Section id="CGC" class="position-relative">
+  <div class="bg_imgages position-absolute">
+    <img src="images/connetGroup Photo.jpg" alt="bg_images">
+    </div>
+    <div class="row justify-content-end mr-0">
+      <div class="col-12 col-md-6 bg-success text-light align-self-end p-5 textbox">
+        <h2 class="text-light">Connect Group of Companies</h2>
+        <p class="lead">Connect Personnel was established in Newcastle in 1994 and has been the basis of what has now grown to be the Connect Group of Companies. Since our inception we have built a strong reputation on reliability, honesty and being able to solve the most difficult recruitment requests. </p>
+        <p class="mb-5 lead">Connect boasts a strong record of attracting the very best local and international candidates whilst our strategies for employee retention have been embraced by our clients for many years and have been instrumental in securing long standing relationships.</p>
+      </div>
+  </div>
+</Section>
+
+<section id="ReferFriend" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Refer a friend</h2>
+        <p>Successful referrals are rewarded with your choice of a gift voucher, donation to charity or community event sponsorship to the value of $750.</p>
+        <p class="d-none d-md-block">If you have a friend or colleague interested in taking up a locum/Contractor/Permanent job in Australia or New Zealand, and who is not currently working with Connect Personnel Medical or Connect Personnel, we’d like to give a little something if return.</p>
+        <a href="#" class="btn btn-outline-success "> Refer a friend</a>
+      </div>
+      <div class="col-md-6 d-none d-md-block">
+        <img class="img-fluid rounded" src="images/Refer_Photo.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer" class="py-5 ">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="logof"><img class="img-fluid" src="images/footer_Logo.png" alt="Footer Logo"></div>
+        <p class="mt-5"> @ Copyright 2021 CONNECT PERSONNEL. All rights reserved.<a href="#">YOUR PRIVACY</a></p>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="footer_center">
+           <i class="fa fa-phone"></i> <a href="#">call Medical</a>
+           <p>Suite 1A Level 2802 Pacific Highway</p>
+          <p> Gordon, NSW 2072</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="footer_end">
+          <i class="fa fa-phone"></i> <a href="#">Call Engneering/Projects/Operations</a>
+          <p>Kings Row Office Park Building 2 Level 5 </p>
+          <p>50 McDougall Street Milton Qld 4064</p>
+          <div class="fee">
+            <div class="row">
+              <div class="col-4 col-md-4"><i class="fab fa-facebook-f"></i> <i class="fab fa-linkedin-in"></i></div>
+              <div class="col-4 col-md-4"> <p>Site by Recsite</p></div>
+              <div class="col-4 col-md-4"> <img class="img-fluid" src="images/Vector Smart Object.png" alt="footer img"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+   <!-- JS FILES -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/uikit.min.js"></script>
+    <script type="text/javascript" src="js/uikit-icons.min.js"></script>
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/Min.js"></script>
+</body>
+</html>
